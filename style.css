@@ -1,0 +1,329 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-image: url("img/background2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Bree Serif';
+    font-size: 1.4rem;
+    color: #b9adff;
+}
+h2 {
+    font-family: 'Alfa Slab One';
+    font-weight: 200;
+    font-size: 3rem;
+    text-align: center;
+    height: 100px;
+}
+h3 {
+    font-family: 'Alfa Slab One';
+    font-weight: 100;
+    font-size: 1.5rem;
+    height: 40px;
+}
+
+/*HEADER*/
+header {
+    height: 80px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.048);
+    background: rgb(50,0,205);
+    background: linear-gradient(90deg, rgba(50,0,205,1) 0%, rgba(45,0,129,1) 25%, rgba(64,47,102,1) 50%, rgba(87,61,90,1) 54%, rgba(34,92,127,1) 75%, rgba(67,138,174,1) 100%);
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+.navbar {
+    ul{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 40px;
+    }
+    li {
+        list-style: none;
+        text-decoration: none;
+    }
+}
+.navbar a{
+    text-decoration: none;
+    color: #b9adff;
+    padding: 7px;
+    font-weight: 800;
+    font-size: 1.5;
+    font-family: 'Alfa Slab One';
+    font-weight: 100;
+}
+.navbar a:hover {
+    color: #b9adff;
+    padding: 7px;
+    border-bottom: 2px solid #b9adff;
+}
+
+/*APRESENTAÇÃO*/
+.apresentacao {
+    height: 570px;
+}
+h1 {
+    font-size:4rem;
+    letter-spacing: 7px;
+    text-align: center;
+    padding-top: 120px;
+    font-family: 'Alfa Slab One';
+    font-weight: 200;
+
+}
+.conteudo {
+    width: fit-content;
+    padding-top: 30px;
+    margin:auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.foto {
+    border: 1px solid #b9adff;
+    width: 300px;
+    height: 300px;
+    border-radius:100%;
+    flex-basis: 300px;
+    box-shadow: 0 2px 5px #000000
+}
+.foto img{
+    width: 300px;
+    height: 300px;
+    border-radius:100%;
+    flex-basis: 300px;
+}
+.texto {
+    flex-basis: 600px;
+    padding-left: 50px;
+    line-height: 30px;
+}
+.texto ul {
+    padding-top: 20px;
+    padding-left: 30px;
+    list-style-image: url("img/star-16.png");
+}
+.texto a {
+    color: #CA2B94;
+}
+
+/*EDUCAÇÃO*/
+.educacao {
+    transform: skewY(-2deg);
+    background-color: #b9adff15;
+    padding: 3%;
+    padding-bottom: 0;
+}
+.educacao h2 {
+    transform: skewY(2deg);
+}
+.ensino {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1400px;
+    height: 200px;
+    margin:auto;
+}
+.ensino h3 {
+    transform: skewY(2deg);
+}
+.ensino ul {
+    list-style-image: url("img/star-16.png");
+    padding-left: 30px;
+    transform: skewY(2deg);
+}
+.fundamental {
+    position:relative;
+    top: -22px;
+}
+
+/*CERTIFICAÇÕES*/
+.certificacoes {
+    height: 250px;
+    padding: 3%;
+}
+.certifi ul {
+    list-style-image: url("img/star-16.png");
+    padding-left: 30px;
+}
+.certifi {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    max-width: 1400px;
+}
+.info {
+    flex-basis: 560px;
+}
+
+
+/*EXPERIENCIAS*/ 
+.experiencia {
+    background-color: #b9adff15;
+    transform: skewY(2deg);
+    padding: 3%;
+    display: flex;
+    justify-content: space-around;
+    width: fit-content;
+    margin: auto;
+    height: 250px;
+}
+.experiencia h2 {
+    transform: skewY(-2deg);
+    align-self: center;
+}
+.experiencia h3 {
+    transform: skewY(-2deg);
+}
+.experiencia ul {
+    transform: skewY(-2deg);
+    list-style-image: url("img/star-16.png");
+    padding-left: 25px;
+}
+.estagio {
+    flex-basis: 400px;
+    align-self: center;
+}
+.jogo {
+    flex-basis: 400px;
+    position: relative;
+    top: -5px;
+    align-self: center;
+}
+
+/*HABILIDADES TECNICAS*/
+.habilidades-tecnicas {
+    padding: 3%;
+    height: 250px;
+}
+.habilidades-tecnicas ul{
+    display: flex;
+    justify-content: space-around;
+}
+.habilidades-tecnicas ul li {
+    list-style: none;
+    padding: 2%;
+    border-radius: 100%;
+    border: 1px solid #b9adff;
+    height: 40px;
+    flex-basis: 40px;
+    background-color: #b9adff5b;
+    text-align: center;
+    flex-wrap: wrap;
+}
+ /*FOOTER*/
+ footer {
+    background-color: #b9adff;
+    height: 230px;
+    color: #ffffff;
+ }
+ footer h3{
+    color: #ffffff;
+    text-align: center;
+    padding-top: 30px;
+ }
+ footer p{
+    font-size: 1rem;
+    position: relative;
+    top: 30%;
+    padding-left: 20px
+}
+ .links ul{
+    display: flex;
+    justify-content: center;
+
+ }
+ .links ul li {
+    position: relative;
+    top: 30px;
+    margin-inline: 50px;
+    list-style: none;
+ }
+
+ @media screen and (max-width: 768px) {
+    header {
+        width: 160px;
+        height: 100%;
+        padding:2%;
+        background: rgb(50,0,183);
+        background: linear-gradient(rgba(50,0,183,1) 0%, rgba(60,0,155,1) 25%, rgba(75,32,135,1) 50%, rgba(100,57,124,1) 75%, rgba(128,82,127,1) 100%); 
+    }
+    header ul{
+        flex-direction: column;
+    } 
+    header ul li {
+        padding-top: 20px;
+        border-bottom: 1px solid #b9adff;
+        text-align: center;
+        padding-bottom: 15px;
+    }
+    .navbar a:hover{
+        border: 0;
+    }
+    main {
+        width: calc(100% - 160px);
+        position: relative;
+        left: 180px;
+        max-width: 570px;
+    }
+    .apresentacao {
+        height: 840px;
+    }
+    h1 {
+        padding-top: 30px;
+    }
+    .conteudo {
+        display: block;
+    }
+    .foto {
+        margin:auto;
+    }
+    .texto {
+        margin: auto;
+        text-align: center;
+        padding-top: 20px;
+        max-width: 500px;
+    }
+    .texto ul {
+        text-align: left;
+        position: relative;
+        left: 90px;
+    }
+    .educacao {
+        height: 400px;
+    }
+    .fundamental {
+        top:-10px;
+    }
+    .ensino h3{
+        padding-bottom: 60px;
+    }
+    .info h3 {
+        padding-bottom: 30px;
+    }
+    .experiencia {
+        display: block;
+        height: 500px;
+        width: 570px;
+    }
+    .estagio {
+        width: 450px;
+        margin:auto;
+        padding-bottom: 20px
+    }
+    .jogo {
+        width: 450px;
+        margin:auto
+    }
+    .habilidades-tecnicas h2{
+        padding-bottom: 40px;
+    }
+    
+    
+ }
+
+
+
