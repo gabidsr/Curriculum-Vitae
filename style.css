@@ -129,6 +129,7 @@ h1 {
 }
 .ensino h3 {
     transform: skewY(2deg);
+    padding-bottom: 30px;
 }
 .ensino ul {
     list-style-image: url("img/star-16.png");
@@ -137,7 +138,7 @@ h1 {
 }
 .fundamental {
     position:relative;
-    top: -22px;
+    top: -14px;
 }
 
 /*CERTIFICAÇÕES*/
